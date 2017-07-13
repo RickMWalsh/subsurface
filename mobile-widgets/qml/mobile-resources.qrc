@@ -4,10 +4,16 @@
 		<file>Preferences.qml</file>
 		<file>About.qml</file>
 		<file>CloudCredentials.qml</file>
+		<file>CylinderViewDelegate.qml</file>
+		<file>CylinderDetailsEdit.qml</file>
 		<file>DiveList.qml</file>
 		<file>DiveDetails.qml</file>
 		<file>DiveDetailsEdit.qml</file>
 		<file>DiveDetailsView.qml</file>
+		<file>DivePlanner.qml</file>
+		<file>DivePlannerPointEdit.qml</file>
+		<file>DivePlannerPointsDelegate.qml</file>
+		<file>DivePlannerSettingsEdit.qml</file>
 		<file>DownloadFromDiveComputer.qml</file>
 		<file>DownloadedDiveDelegate.qml</file>
 		<file>GpsList.qml</file>

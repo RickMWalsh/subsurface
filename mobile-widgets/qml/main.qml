@@ -170,6 +170,13 @@ Kirigami.ApplicationWindow {
 					}
 				}
 				Kirigami.Action {
+					text: qsTr("Plan dive")
+					enabled: true
+					onTriggered: {
+						stackView.push(divePlanner)
+					}
+				}
+				Kirigami.Action {
 					text: qsTr("Manual sync with cloud")
 					enabled: manager.credentialStatus === QMLManager.VALID || manager.credentialStatus === QMLManager.VALID_EMAIL || manager.credentialStatus === QMLManager.NOCLOUD
 					onTriggered: {
@@ -462,6 +469,12 @@ if you have network connectivity and want to sync your data to cloud storage."),
 	DownloadFromDiveComputer {
 		id: downloadFromDc
 		visible: false
+	}
+
+	DivePlanner {
+		id: divePlanner
+		visible: false
+		anchors.fill: parent
 	}
 
 	ThemeTest {
